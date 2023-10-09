@@ -1,0 +1,121 @@
+/*The CSS Universal Selector*/
+/*
+* { color: black;}
+*/
+/*The CSS element Selector*/
+body {
+    background-color: darkgrey;
+}
+header, footer {
+    background-color: white;
+}
+h1 {
+    color: brown;
+}
+
+/*The CSS id Selector*/
+#seccion01 {
+    /*align-content: center;*/
+    background-color: cadetblue;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    margin: 20px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    padding: 20px;
+    border-color: brown;
+    border-style:double;    /*solid; dashed; dotted*/
+    border-width: 3px;
+    border-top: 7px dotted rebeccapurple;
+    border-radius: 15%;
+    height: 150px;
+    width: 500px;
+}
+
+/*The CSS class Selector*/
+.par01 {
+    text-align: right;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: "Bauhaus 93";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em; /* 10px xx-small;*/
+} 
+
+a {
+    text-decoration: none;/*line-through; overline;*/
+    text-transform:capitalize; /*uppercase lowercase;*/
+    color:brown;
+}
+a:visited {
+    color: chocolate;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color:red;
+}
+.boton01 {
+    background-color: darkcyan;
+    color: #fff;
+    text-transform: lowercase;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+}
+.boton01:hover {
+    background-color:red;
+}
+
+ul li {
+    color: brown;
+    list-style-type: square;
+}
+ol li {
+    background-color: cadetblue;
+    list-style-type: lower-roman; /*lower-alpha /*lower-greek;*/
+}
+ul {
+    background-color: #ccc;
+    list-style-type: none;
+    border: solid 1px #eee;
+    border-radius: 0%;
+    padding: 0%;
+}
+li {
+    list-style-type: none;
+    border: solid 1px #eee;
+    padding: 10px;
+}
+
+table {
+    background-color: #ccc;
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(17,83, 85);
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+tr {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: brown;
+}
+
+#seccion03 p {
+    display: inline;
+}
+#seccion03 span {
+    display: block;
+}
